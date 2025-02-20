@@ -1,0 +1,118 @@
+*** 1. 이름, 국어, 영어, 수학의 값을 입력받아서
+   총점, 평균을 계산하고 , 출력하기
+   ( 조건 : 평균은 소수점 2자리까지 출력 )
+   출력형식 예)  이름="홍길동",국어=89,영어=78,수학=90,총점=257,평균=85.67
+   
+2. 아래 결과를 적으세요
+   산술연산자  + - * / %  주의할점   
+  1) System.out.println( 5 / 0 );  정수/0   산술적예외   / By Zero    
+  2) System.out.println( 5 % 0 );  정수%0   산술적예외   / By Zero
+  
+  3) System.out.println( 5.2 / 0 ); 실수/0  Infinity   무한대
+  4) System.out.println( 5.2 % 0 ); 실수%0  NaN        Not a Number
+
+3. 비교연산자 결과를 적으세요      boolean true/false           
+  1) System.out.println(  3 > 5 );   false
+  2) System.out.println(  3 < 5 );   true
+  3) System.out.println(  3 >= 5 );  false 
+  4) System.out.println(  3 <= 5 );  true
+                            ==
+  5) System.out.println(  3 = 5 );  대입연산자(주의) 에러발생.
+                           !=
+  6) System.out.println(  3 = !5 );  에러발생
+                          !(3 > 5) 
+  7) System.out.println(  !3 > 5  );  에러발생
+
+4. 형변환에 대해서 설명하세요 . 
+  1) 정의 :   
+  2) 자동(묵시적,암시적)형변환 2가지 
+     long l = 100;       1) 경우
+     100 + 100L => Long  2) 경우
+  
+     강제(명시적)형변환
+     byte tot = 123;
+     double avg = (double)tot / 3    int 연산 int => int
+     int i = (int)100L;
+     (type)  cast 연산자 ->  cast 강제 형변환.
+      
+
+5. 래퍼( Wrapper ) 클래스에 대해서 설명하세요.     
+   int i = Integer.MAX_VALUE;
+     
+6.  String을  int로 형변환하는 코딩을 하세요. 
+	String s = "12";
+	int i = Integer.parseInt(s);    
+
+6-2.int을  String으로 형변환하는 코딩을 모두 하세요.
+	int i = 12;
+		// 1. String s = i + ""; // "12"
+		// 2. String s = String.valueOf(i);		
+		// 3. String s = String.format("%d", i); 
+    
+7. 어떤 기억공간( x )의 값을 1증가하는 코딩을 모두 하세요 .
+   x = x + 1;
+   x += 1;
+   ++x;
+   x++;
+   
+7-2. 어떤 기억공간(x)의 값을 5 증가(감소) 시키는 코딩하세요. 
+   x += 5;
+   x = x + 5;
+   
+   x -= 5;
+   x = x - 5;
+
+8. 연산자를 사용해서 수식으로 나타내세요.
+  1) ch 문자는 대문자('A'~ 'Z')이다.   
+     'A' <= ch <= 'Z'
+     'A' <= ch &&  ch <= 'Z'
+     65 <= ch &&  ch <= 'Z'
+     
+  2) ch 문자는 숫자('0'~'9')이다. 
+     '0' <= ch &&  ch <= '9'
+     48 <= ch &&  ch <= '9'
+  
+  3) x는 15보다 같거나 크고, 40보다 같거나 작다.
+     x >= 15  &&  x <= 40 
+     
+  4) x는 2의 배수 또는 3의 배수이다. 
+     x % 2 ==0  ||  x % 3 == 0
+     
+  5) ch 문자는 대문자 또는 소문자 이다.
+   ('A' <= ch &&  ch <= 'Z') ||  ('a' <= ch &&  ch <= 'z')
+ 
+9. 삼항 연산자에 대해서 설명하세요 .  
+   항1?항2:항3
+   조건 연산자
+   항1 이 참 -> 항2
+        거짓 -> 항3   
+  
+10. 논리연산자의 우선 순위가 높은 순으로 적으세요.
+    !  >  &&  > ||
+    
+    ~   &  ^  |
+
+11. 두 정수 x,y 변수를 선언하고 각각 1,2로 초기화하고  출력하고,
+    두 값을 교환하고 x,y 값을 출력하는 코딩을 하세요.
+   int x = 1, y = 2;
+   {
+	   int temp = x;
+	   x = y;
+	   y = temp;
+   } 
+
+https://programmers.co.kr/
+회원 가입 안되어 있음 가입해서 자바로 문제 풀고 있으세요 
+
+
+
+
+
+
+
+
+
+
+
+
+   

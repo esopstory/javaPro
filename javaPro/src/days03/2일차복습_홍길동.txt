@@ -1,0 +1,75 @@
+
+1. *** 오류메시지에 대한 설명을 하세요 .
+   
+  ㄱ. The local variable age may not have been initialized 
+  ㄴ. age cannot be resolved to a variable 
+  ㄷ. The left-hand side of an assignment must be a variable X  
+  ㄹ. Type mismatch: cannot convert from int to boolean 
+  ㅁ. Duplicate local variable age 
+  
+2. 지역변수( Local Variable ) 에 대해서 설명하세요.
+  {    // 영역(범위)연산자
+      
+  }
+   
+3. 자료형( Data Type )에 대해서 설명하세요.
+  1) 정의
+      형식(종류)                +   크기
+      정수/실수/문자/문자열 등등
+      
+  2) 종류     
+     기  (총8가지)
+       숫
+          정 - b,s,i,l
+                 char(2)   'A'
+          실 - f(4) d(8)
+       논 - b(1) t/f
+     참 - 배열, 클래스, 인
+
+4. 이름, 나이, 학점, 성별 관련 변수를 선언및 초기화하고, 출력하세요. 
+    
+    조건1) printf() 메서드 사용
+    조건2) 출력 형식은    ">이름:"홍길동", 나이:20, 학점:'A', 성별:true" 
+   
+5.  + 연산  결과를 적으세요. 
+    
+   ㄱ. 3 + 5 + 0      
+   ㄴ. 3 + 5 + "0"  
+   ㄴ. 3 + 5 + '0'   
+ 
+6.  나이와 국어점수를 저장할 변수를 선언하세요 .
+    byte kor = 10;
+    byte age = 20;
+    
+    byte kor = 10, age = 20;  // , 콤마(나열) 연산자
+    
+               
+7. 개행( 줄바꿈 ) 하는 코딩을 모두 적으세요. 
+   ㄱ.   System.out.println();  
+   ㄴ.   '\n' 제어문자
+ 
+8.  printf(String format, Object...args) 함수의 String format 매개변수의 
+      %Conversion 에 대해서 적으세요. 
+      ㄱ. String 일 때 사용하는 Conversion :   s
+      ㄴ. char 일 때 사용하는 Conversion :     c  C
+      ㄷ. boolean 일 때 사용하는 Conversion :  b  B 
+      ㄹ. byte, short, int, long 일 때 사용하는 Conversion : d o x  
+      ㅁ. float, double 일 때 사용하는 Conversion : f e g 등등
+
+9.	double money = 1234569.7089
+    소수점 2자리까지 출력
+    세 자리마다 콤마(,) 출력하는 코딩을 하세요 . 
+ 
+ X
+10. char a = 'x';
+    char b;    
+    a 변수의 값을 대문자로 변환시켜서 b 변수에 저장 후 출력하는 코딩을 하세요.
+ 
+
+
+
+                    
+																															
+
+
+                    
