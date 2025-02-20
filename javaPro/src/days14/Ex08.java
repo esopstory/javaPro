@@ -1,24 +1,31 @@
 package days14;
 
-import java.util.Iterator;
-
+/**
+ * @author kenik
+ * @date 2025. 2. 20. - 오후 3:31:20
+ * @subject   클래스(객체) 배열
+ * @content     ㄴ 배열 ? 
+ */
 public class Ex08 {
-	public static void main(String[] args) {
 
-		Person[] pArr = new Person[5];
+	public static void main(String[] args) {
+		// 5 명의 사람(Person)
+		Person p1 = new Person();
+		p1.name = "권태정";
+		Person p2 = new Person();
+		p2.name = "김가은";
+		Person p3 = new Person();
+		p3.name = "김도훈";
+		Person p4 = new Person();
+		p4.name = "김민선";
+		Person p5 = new Person();
+		p5.name = "김승효";
 		
-		for (int i = 0; i < pArr.length; i++) {
-			pArr[i] = new Person();
-		} // for i
-		
-		pArr[0].name = "p1";
-		pArr[1].name = "p2";
-		pArr[2].name = "p3";
-		pArr[3].name = "p4";
-		pArr[4].name = "p4";
-		
-		for (int i = 0; i < pArr.length; i++) {
-			pArr[i].work();
-		} // for i
+		p1.work();
+		p2.work();
+		p3.work();
+		p4.work();
+		p5.work();
 	} // main
-}
+
+} // class
